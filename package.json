@@ -1,0 +1,24 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine spec/test.js",
+    "start": "npx tsc index.ts & nodemon src/index.js",
+    "compile": "npx tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sharp": "^0.30.7",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/supertest": "^2.0.12",
+    "jasmine": "^4.2.1",
+    "typescript": "^4.7.4"
+  }
+}
