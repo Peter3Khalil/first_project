@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jasmine spec/test.js",
-    "start": "npx tsc index.ts & nodemon src/index.js",
+    "start": "npx tsc index.ts & node src/index.js",
     "compile": "npx tsc --watch"
   },
   "author": "",
